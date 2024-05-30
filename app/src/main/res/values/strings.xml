@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PinjamBukuID</string>
+
+    <string name="app_name">BookDetails</string>
+    <string name="book_image">Gambar Sampul Buku</string> <!-- Ini adalah deskripsi konten gambar -->
+</resources>
+
+
