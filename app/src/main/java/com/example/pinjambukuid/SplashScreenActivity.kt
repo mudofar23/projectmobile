@@ -1,5 +1,6 @@
 package com.example.pinjambukuid
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -16,5 +17,16 @@ class SplashScreenActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        // Delay 5 detik sebelum berpindah ke aktivitas login
+        android.os.Handler().postDelayed({
+            goToLoginActivity()
+        }, 3000L)
+    }
+
+    private fun goToLoginActivity() {
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish() // Menutup aktivitas splash screen agar tidak bisa kembali dengan tombol back
     }
 }

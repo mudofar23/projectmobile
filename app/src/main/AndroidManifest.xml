@@ -31,10 +31,10 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".RegistrasiActivity"
             android:exported="false" />
         <activity
-            android:name=".RegistrasiActivity"
+            android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

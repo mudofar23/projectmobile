@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
     tools:context=".MainActivity">
 
     <ImageView
@@ -13,7 +12,7 @@
         android:layout_height="200dp"
         android:background="@color/abutua"
         android:contentDescription="@string/book_image"
-        android:src="@drawable/Book"
+        android:src="@drawable/book"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -56,6 +55,6 @@
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_margin="16dp" />
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
